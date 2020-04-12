@@ -12,4 +12,5 @@ courses.each do |course|
   puts course.text.strip 
 end
 
+p doc.css(".title-oE5vT4")[0].name 
 p doc.css(".title-oE5vT4")[0].attributes
